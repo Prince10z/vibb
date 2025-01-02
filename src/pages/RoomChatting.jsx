@@ -4,7 +4,7 @@ import { useRoomCredential } from "../context/roomCredential";
 import JoinRoomAppBar from "../components/JoinRoomAppBar";
 
 // Initialize the socket connection
-const socket = io("http://localhost:3000");
+const socket = io("https://vibb-stream-2-0.onrender.com");
 
 const RoomChatting = () => {
   const customUserCredential = useRoomCredential();
